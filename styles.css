@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@300;400;500;600;700;800&family=Satisfy&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+--primary-color: #3d572f;
+--primary-color-alt: #96d674;
+--secondary-color: #eeeeee;
+--secondary-color-alt: #dcdcdc;
+--black-color: #0f0f0f;
+--white-color: #ffffff;
+}
+
+body {
+    /* text-align: center; */
+    background: url(modelo2.jpg);
+}
+.formulario {
+    text-align: center;
+    /* display: flexbox; */
+    font-family: 'Anton';
+    display: flexbox;
+    color: #dcdcdc;
+    padding: 15px;
+    /* margin: 10 10 50 20px; */
+    /* grid-template-areas: ; */
+    /* flex-grow: gap(3,3); */
+}
+
+h1 {
+    color: #96d674;
+    font-family: Anton;
+    font-size: 50px;
+    margin-top: 15px;
+}
+h3 {
+    font-family: 'Anton';
+    font-size: 25px;
+    color: #96d674;    
+}
+h4 {
+    font-family: "Raleway";
+    /* color: #F3dc55; */
+    margin: 10px;
+}
+h4 a {
+    /* text-decoration: none; */
+    color: #dac23ce4;
+}
+
+div label {
+    color: #ffffff;
+}
+
+button {
+    margin-top: 15px;
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+    background-color: #96d674;
+    color: #0e0c0c;
+    
+}
+.bloco{
+    text-align: left;
+    padding: 20px 15px 10px 20px;
+}
+.bloco select {
+    height: 30px;
+    width: 180px;
+    border-radius: 40px;
+    border: none;   
+}
+
+/* .bloco select option {
+    margin: 10px;
+    padding-left: 12px;
+}
+ */
+
+.bloco label {
+    color: #96d674;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.bloco input {
+    /* background-color: #96d674; */
+    height: 30px;
+    width: 180px;
+    max-width: 400px;
+    border-radius: 40px;
+    /* border: 1px solid #96d674; */
+    border: none;
+    background-color: #eeeeee;
+    padding-left: 12px;
+    margin: 12px 8px;
+}
+.bloco div {
+    text-align: center;    
+}
+div .bloco {
+    background-color: #0e0c0c46;
+    border-radius: 40px;
+    margin-top: 10px;
+    padding: 20px 15px;
+    text-align: center;
+}
+.concluir button {
+    font-family: 'Anton';
+    font-weight: 500;
+}
+
+
+footer {
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: auto;
+    font-family: 'Anton';
+    font-size: 25px;
+}
+.footer p {
+    color: #dac23ce4;
+}
